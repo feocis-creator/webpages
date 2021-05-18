@@ -1,0 +1,178 @@
+# webpages
+Primera Página Web
+Actividad19 MiPaginaWeb (con bootstrap)
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS: Ligas de Fútbol (con bootstrap)</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <style>
+        a:link {
+            color: red;
+        }
+
+        a:visited {
+          color: green;
+        }
+
+        a:hover {
+        color: hotpink;
+        }
+
+        a:active {
+        color: blue;
+        }
+        
+        h2 {
+            color: rgb(0, 232, 15);
+        }  
+        
+        #rabbits-info-heading {
+            background-color: purple;
+            font-family: "Helvetica", Times;
+            font-size: 3.0em;
+            text-align: center;
+        }
+        
+        p {
+            color: rgb(191, 0, 255);
+        }
+        
+        .song-lyrics {
+            background-color: yellow;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        #liga-inglesa {
+            border: 6px ridge red;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        #my-text {
+            width: 400px;
+            height: 180;
+            overflow-y: scroll;
+            margin-bottom: 10px;
+        }
+        .song-lyrics1 {
+            border-top: 1px solid rgb(44, 206, 92);
+            border-bottom: 1px solid rgb(14, 150, 116);
+            color:rgb(99, 89, 4);
+        }
+        p.song-lyrics1{
+            font-family:cursive;
+        }
+        </style>
+    </head>
+    <body>
+
+    <h1>Las Ligas de Fútbol!</h1>
+    
+    <h2 id="rabbits-info-heading">Información Básica</h2>
+    
+    <p>El Deporte mas popular del planeta es el <em>fútbol</em>. Las Ligas mas importantes
+        están ubicadas en Europa. <strong>La Liga Inglesa, la Italiana, Alemana y Española
+        están catalogadas como las mas <em>poderosas</em> y su importancia es global</strong>
+        Este es el orden de la diferentes ligas:
+        <ol>
+            <li><a href="#liga-inglesa">Liga Inglesa</a></li>
+            <li><a href="#liga-alemana">Liga Alemana</a></li>
+            <li><a href="#liga-italiana">Liga Italiana</a></li>
+            <li><a href="#liga-espanola">Liga Española</a></li>
+            <li><a target="_blank" href="https://www.resultados-futbol.com/ligue_1">Liga Francesa</a></li>
+        </ol>
+        <div id="my-text">
+    </p>
+    El fútbol es el deporte más popular en numerosos países de Europa, y uno de los más populares en prácticamente todo el continente.
+Las reglas modernas del fútbol se dictaron en Londres en 1863 por parte de The Football Association. La Copa FA se creó en 1871 y el primer partido de selecciones nacionales se jugó en 1873 entre Inglaterra y Escocia.
+Los europeos han ganado 11 de las 20 ediciones de la Copa Mundial de Fútbol. Italia y Alemania han logrado cuatro campeonatos, en tanto que Inglaterra, Francia y España han ganado un título.
+La UEFA es el ente rector del fútbol europeo desde 1954. La principal competición de clubes es la Liga de Campeones de la UEFA, disputada por primera vez en 1955. También organiza la Eurocopa de selecciones masculinas desde 1960 y la Eurocopa Femenina desde 1984.
+Las ligas nacionales más populares y poderosas del mundo son europeas, en particular la Premier League de Inglaterra, la Primera División de España, la Serie A de Italia, la Bundesliga de Alemania y la Ligue 1 de Francia.
+    <p>
+    </div>
+    </p>
+    <!-- Tabla que contiene los clubes campeones! -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>POSICIÓN</th>
+                <th>CLUB</th>
+                <th>NO. VECES CAMPEÓN DESDE 1956</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr><td>1</td><td>Real Madrid</td><td>12</td>
+        <tr><td>2</td><td>Liverpool</td><td>6</td>
+        <tr><td>3</td><td>Bayern Munich</td><td>6</td>
+        <tr><td>4</td><td>Barcelona</td><td>5</td>
+        <tr><td>5</td><td>Manchester United</td><td>3</td>
+        </tr>
+        
+        </tbody>
+    </table>
+
+    <!-- Liga Inglesa -->
+    <h2 id="liga-inglesa">Liga Inglesa</h2>
+    <p class="song-lyrics">La Premier League, entre otros, <br>
+        tiene los equipos aquí mostrados, los cuales son El Arsenal, <br>
+        El Liverpool, El Manchester United, El Manchester City y el Everton. <br>
+        En este momento se omiten los demás equipos! <br>
+        <a target="_blank" href="https://www.arsenal.com/history">
+            <div id="liga-inglesa">
+        <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4df.png" alt="Jugando" width="203">
+        </a>
+        <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4e5.png" alt="Jugando" width="203">
+        <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4e7.png" alt="Jugando" width="203">
+        <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4e6.png" alt="Jugando" width="203">
+        <img src="http://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4e3.png" alt="Jugando" width="203">
+            </div>
+    </p>
+    
+    <!-- Liga Alemana-->
+    <h2 id="liga-alemana">Liga Alemana</h2>
+    <p class="song-lyrics">Tenemos aqu� algunos equipos de la Bundes Liga <br>
+        tales como el Stuttgard, <br>
+        el Hertha <br>
+        el Leipzig <br>
+        el Dusseldorf <br>
+        y el Bremen" <br>
+<img src="http://assets.stickpng.com/thumbs/5b4e2e48c051e602a568ce04.png" alt="Stuttgard" width="203">
+<img src="http://assets.stickpng.com/thumbs/5bcf581f7aaafa0575d85005.png" alt="Hertha" width="203">
+<img src="http://assets.stickpng.com/thumbs/5bcf58277aaafa0575d85006.png" alt="Leipzig" width="203">
+<img src="http://assets.stickpng.com/thumbs/584d85c0367b6a13e54477c7.png" alt="Dusseldorf" width="203">
+<img src="http://assets.stickpng.com/thumbs/584d85c9367b6a13e54477c8.png" alt="Bremen" width="203">
+    </p>
+    
+    <!-- Liga Italiana -->
+    <h2 id="liga-italiana">Liga Italiana</h2>
+    <p class="song-lyrics">La liga Italiana, entre otros, estos son algunos de los equipos: <br>
+        El Juventus, El Milán, El Roma, El Calcio y el Barletta <br>
+        
+<img src="https://img1.freepng.es/20180612/jfq/kisspng-juventus-stadium-juventus-f-c-serie-a-s-p-a-l-20-juventus-logo-5b2046f512fa22.7733869815288419730777.jpg" alt="Juventus" width="203">
+<img src="https://img1.freepng.es/20180616/uqe/kisspng-a-c-milan-serie-a-dream-league-soccer-kit-footbal-ac-milan-5b2562396a59a2.5189694315291766334356.jpg" alt="Milan" width="203">
+<img src="https://img1.freepng.es/20180413/kdq/kisspng-a-s-roma-serie-a-s-s-lazio-uefa-champions-league-italy-5ad12387641925.17744693152365555941.jpg" alt="Roma" width="203">
+<img src="http://assets.stickpng.com/thumbs/584ab08230d6736bca3d6e0d.png" alt="Calcio" width="203">
+<img src="http://assets.stickpng.com/thumbs/584ab06430d6736bca3d6e0a.png" alt="Barletta" width="203">
+    </p>
+ 
+    <!-- Liga Española -->
+    <h2 id="liga-espanola">Liga Española</h2>
+    <p class="song-lyrics song-lyrics1">La liga Española, es la mas famosa en nuestro medio. Los equipos aquí mostrados son: <br>
+        El Real Madrid, El Barcelona, El Atlético Bilbao, El Levante y el Atlético Madrid <br>
+        
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMJXUqLXWmPDwGnSuTi6Pk1nPgR951P4fd8w&usqp=CAU" alt="Real Madrid" width="303">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtOgeewAyn6tGwuOApk-h-8eX2ZLY6OtO5w&usqp=CAU" alt="Barcelona" width="303">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl3jzltKJOam2M3dV_K0bvqgG9Ril1ei_D6g&usqp=CAU" alt="Bilbao" width="203">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFva9ndMOqVN6jtt6fwQu53Z1_qMhJkUe5kA&usqp=CAU" alt="Levante" width="203">
+<img src="data:image/png;base64,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" alt="AtleticoMadrid" width="203">
+    </p>
+
+    
+    </body>
+</html>
